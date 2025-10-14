@@ -6,12 +6,14 @@ h1 {
   font-size: 1rem;
   text-decoration: underline;
 
-  .name{
-  color: palevioletred;
+.name{
+color: palevioletred;
     
 }
 
 .question{
-color:blue;
+  color:blue;
+  border: 5px;
+  border-color: blue;
 }
   
