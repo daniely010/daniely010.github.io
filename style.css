@@ -8,8 +8,8 @@ color: palevioletred;
 }
 
 .question{
-  color:blue;
-  border: 5px;
+  border-style: dashed;
   border-color: blue;
+  color: rgb(124, 76, 89);
 }
   
