@@ -5,5 +5,14 @@ h1 {
   color: red;
   font-size: 1rem;
   text-decoration: underline;
-  
+
+  .name{
+  color: palevioletred
+    
 }
+
+.question{
+color:blue
+
+}
+  
