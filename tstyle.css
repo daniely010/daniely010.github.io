@@ -13,18 +13,19 @@ body{
   margin: 3% 0% 3% 70%;
   padding: 2% 5%;
   border-radius: 5px;
-  background-colour: #124D1F;
+  background-color: #124D1F;
 }
 
 .c-text{
-  backround-color: #124D1F;
+  background-color: #124D1F;
   padding: 5%;
   margin: 0 auto;
   text-align: center;
   color: #FFFFFF; 
   width: 500px;
   border-radius: 8px;
-  
+}
+
 #color{
   background-color: #8A4304;
   width: 200px;
@@ -34,10 +35,11 @@ body{
 }
   
 #text {
-  background-color: 124D1F; 
-  pudding: 5%;
+  background-color: #124D1F; 
+  padding: 5%;
   margin: 5% auto;
   text-align: center;
   color: #FFFFFF;
   width: 500px;
   border-radius: 8px;
+}
