@@ -14,6 +14,7 @@
 <div id="hero">
   <h1>Elephants of the World</h1>
   <p>The gentle giants that shape our ecosystems.</p>
+</div> <!--Missing closing div tag. This bug causes the browser to not know where the container ends, so it keeps treating all the following content as part of that same div tag.
 
 <div class="section"> <!--I added quotation marks around section. The error here causes the broswer to get confused and misread the code. It might think parts of the value are seperate attributes or get the wrong value completely.-->
   <h2>About Elephants</h2>
@@ -52,7 +53,7 @@ communication. </p> <!--I added the opening p tag that was missing at the start 
 </div>
 </div>
 
-<div id="footer"
+<div id="footer"> <!--Added > at the end of the "footer". This bug causes the entire footer to not render properly, meaning stuff like background color and text color won't apply-->
 <p>© 2025 Elephants of the World</p>
 </div>
 </body> <!--Added closing body tag. The bug breaks structure with incorrect formatting and styling-->
