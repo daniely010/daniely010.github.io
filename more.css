@@ -76,7 +76,7 @@ body {
 }
 
 .info-box {
-  background-color: #f0f9ff; */Missing hashtag before the color code. In CSS, all of these color codes need to start with a hashtag, then followed by 6 digits. The bug is that without the #, the background will not understand it as a color and will ignore the background color rule, so the color won't be applied*/
+  background-color: #f0f9ff; /*Missing hashtag before the color code. In CSS, all of these color codes need to start with a hashtag, then followed by 6 digits. The bug is that without the #, the background will not understand it as a color and will ignore the background color rule, so the color won't be applied*/
   border-left: 6px solid #3a7ca5;
   padding: 15px;
   margin-top: 20px;
