@@ -8,25 +8,26 @@
 <body>
 <div id="navbar">
   <h2>🐘 Elephants</h2> <!--I added the h2 closing tag. This was causing a bug because the broswer gets confused and headings may look wrong.-->
-  <h2> Name</h2>
+  <h2>Name</h2>
 </div>
 
 <div id="hero">
-<h1>Elephants of the World</h1>
-<p>The gentle giants that shape our ecosystems.</p>
+  <h1>Elephants of the World</h1>
+  <p>The gentle giants that shape our ecosystems.</p>
+</div> <!--I added a closing div tag because each opening div tag has to be followed with a closing div tag after if there are multiple opening div tags to keep correct HTML structure. Otherwise, functional issues with the code may occur.-->
 
-<div class=section>
-<h2>About Elephants</h2>
-Elephants are the largest land mammals on Earth. They are highly intelligent and form
-strong
-family bonds led by a matriarch. They use their trunks for eating, drinking, and
+<div class="section"> <!--I added quotation marks around section. The error here causes the broswer to get confused and misread the code. It might think parts of the value are seperate attributes or get the wrong value completely.-->
+  <h2>About Elephants</h2>
+<p>Elephants are the largest land mammals on Earth. They are highly intelligent and form
+strong family bonds led by a matriarch. They use their trunks for eating, drinking, and
 communication.
-</p>
-
+</p> <!--I added the opening p tag that was missing at the start of the paragraph. Not adding the opening p tag is a bug because the broswer doesn't know where the paragraph begins, so it cannot use paragraph formatting properly-->
+</div> <!--I moved the div closing tag from all the way at the bottom of the code to here because there are multiple divs so i have to seperate each section with closing div tags. This is so I keep correct HTML structure to avoid issues with the code functioning.-->
+  
 <div class="parent-box">
-<p>This light blue box is the parent element.</p>
+  <p>This light blue box is the parent element.</p>
 <div class="child-box">
-<p>This smaller box is <strong>positioned absolutely</strong> inside its parent.</p>
+  <p>This smaller box is <strong>positioned absolutely</strong> inside its parent.</p>
 </div>
 </div>
-</div>
+
