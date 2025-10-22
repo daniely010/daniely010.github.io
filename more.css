@@ -84,20 +84,20 @@ body {
 }
 
 #fact-card {
-background-color: #e3f8e0;
-border: 2px solid #6fc276;
-padding: 15px;
-border-radius: 8px;
-text-align: center;
-position: relative;
-margin-top: 10px;
+  background-color: #e3f8e0;
+  border: 2px solid #6fc276;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
 }
 
 #footer {
-background-color: #3a7ca5;
-color: white;
-text-align: center;
-padding: 20px;
-position: relative;
-z-index: 10; */Missing a colon after z-index. In CSS, a colon is used to seperate property names from their values. Without the colon, the browser will not understand the rule, so it ignores it. This means the z-index, which controls the stacking order of elements, will not work.*/
+  background-color: #3a7ca5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 10; */Missing a colon after z-index. In CSS, a colon is used to seperate property names from their values. Without the colon, the browser will not understand the rule, so it ignores it. This means the z-index, which controls the stacking order of elements, will not work.*/
 } */Missing a closing curly brace/closing bracket. This bug will cause the browser to not know where the style block ends. This causes a parsing error, making the browser ignore the entire CSS block or any following styles.*/
