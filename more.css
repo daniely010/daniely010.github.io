@@ -83,7 +83,7 @@ body {
   border-radius: 8px;
 }
 
-#fact-card {
+.fact-card { /*Changed from # to . because i have to use class and not ID to style my fact cards in my HTML correctly. The bug is that none of my fact card elements will be styled properly because my html uses class=fact card not id=fact card.*/
   background-color: #e3f8e0;
   border: 2px solid #6fc276;
   padding: 15px;
