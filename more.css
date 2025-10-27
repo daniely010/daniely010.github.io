@@ -39,7 +39,7 @@ body {
   margin: 60px auto;
   width: 80%;
   max-width: 900px;
-  color: black; /*Changed the color from white to black. This error is because the color on my website doesn't match the color in the video, therefore I changed it to white.*/
+  color: black; /*Changed the color from white to black. Although this does not cause a rendering or functional issue, it creates confusion for anyone reading or maintaining the stylesheet. Misleading comments can lead to misunderstandings about the code’s intent, which increases the risk of incorrect future edits or debugging mistakes.*/
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
