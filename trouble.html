@@ -14,13 +14,13 @@
 <div id="hero">
   <h1>Elephants of the World</h1>
   <p>The gentle giants that shape our ecosystems.</p>
-</div> <!--Missing closing div tag. This bug causes the browser to not know where the container ends, so it keeps treating all the following content as part of that same div tag.-->
+</div> <!--Missing closing div tag. This bug causes the browser to not know where the container ends, so it treats all following content as part of the hero section, breaking layout and styling because the container is never properly closed. It can cause unexpected display problems and structure confusion.-->
 
-<div class="section"> <!--I added quotation marks around section. The error here causes the broswer to get confused and misread the code. It might think parts of the value are seperate attributes or get the wrong value completely.-->
+<div class="section"> <!--I added quotation marks around section. The error here causes the broswer to get confused and misread the code. It might think parts of the value are seperate attributes or get the wrong value completely. Without quotes, the browser might misinterpret the attribute, causing wrong or unpredictable parsing of the element and its contents.-->
   <h2>About Elephants</h2>
 <p>Elephants are the largest land mammals on Earth. They are highly intelligent and form
 strong family bonds led by a matriarch. They use their trunks for eating, drinking, and
-communication. </p> <!--I added the opening p tag that was missing at the start of the paragraph. Not adding the opening p tag is a bug because the broswer doesn't know where the paragraph begins, so it cannot use paragraph formatting properly-->
+communication. </p> <!--I added the opening p tag that was missing at the start of the paragraph. Not adding the opening p tag is a bug because the broswer doesn't know where the paragraph begins, so it cannot use paragraph formatting properly. Browsers won’t apply paragraph-related styles correctly, leading to broken formatting and visual issues.-->
 <div class="parent-box">
   <p>This light blue box is the parent element.</p>
 <div class="child-box">
@@ -40,7 +40,7 @@ communication. </p> <!--I added the opening p tag that was missing at the start 
 <!--Deleted random closing list tag that was not needed. The bug can confuse broswers and also break the list display.-->
 </ul> <!--Added a closing ul tag. Without it, the bug will cause the broswer to not correctly recognize the list and cause layout and display problems-->
 <div class="info-box">
-  <p><strong>Fun fact: Elephant ears help regulate body temperature!</strong></p> <!--Added the closing strong tag. The bug is that if there is no closing strong tag, the broswer doesn't know where the strong emphasis ends and can break the visual layout an the html structure-->
+  <p><strong>Fun fact:</strong> Elephant ears help regulate body temperature!</p> <!--Added the closing strong tag. The bug is that if there is no closing strong tag, the broswer doesn't know where the strong emphasis ends and can break the visual layout an the html structure. Also, Styles or emphasis can "bleed" into subsequent text, creating layout and styling bugs.​-->
 </div>
 </div>
 
@@ -53,9 +53,9 @@ communication. </p> <!--I added the opening p tag that was missing at the start 
 </div>
 </div>
 
-<div id="footer"> <!--Added > at the end of the "footer". This bug causes the entire footer to not render properly, meaning stuff like background color and text color won't apply-->
+<div id="footer"> <!--Added > at the end of the "footer". The bug where the footer’s opening div tag is missing the closing angle bracket > causes the browser to misinterpret the start of the footer element. As a result, the entire footer section fails to render correctly, and associated styles like background color and text color won’t be applied.-->
 <p>© 2025 Elephants of the World</p>
 </div>
-</body> <!--Added closing body tag. The bug breaks structure with incorrect formatting and styling-->
+</body> <!--Added closing body tag. May confuse browsers or validators; proper document end is not clearly defined, possibly affecting parsing.-->
 </html>
 
