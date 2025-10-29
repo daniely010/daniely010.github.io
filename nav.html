@@ -29,7 +29,7 @@
         padding: 14px 16px;
         text-decoration: none;
     }
-    ul li a:hover{
+    ul li a:hover:not(.active){
         background-color: #111;
         font-size: larger;
     }
@@ -42,9 +42,9 @@
 <body>
 <nav>
   <ul>
-    <li><a class="active" href="#">Home</a></li>
-    <li><a href="#">Page2</a></li>
-    <li><a href="#">Page 3</a></li>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="lesson1.html">Page2</a></li>
+    <li><a href="trouble.html">Page 3</a></li>
   </ul>
 </nav>
   <button class="btn">click me</button>
