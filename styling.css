@@ -11,3 +11,7 @@
   padding-right: 2px;
   text-align: right;
 }
+
+.navbar-nav .nav-item{
+  margin-left: 10px;
+}
