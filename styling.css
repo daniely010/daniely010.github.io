@@ -1,2 +1,4 @@
-.navbar-brand {
-  font-family: "Tan Meringue"
+.navbar-brand img {
+  height: 40px;
+  width: auto; 
+}
