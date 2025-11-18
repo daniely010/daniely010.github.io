@@ -1,4 +1,6 @@
 .navbar-brand img {
-  height: 40px;
+  height: 60px;
   width: auto; 
+  object-fit: cover;
+  object-position: center;
 }
