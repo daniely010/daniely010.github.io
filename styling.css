@@ -50,8 +50,14 @@ body {
     color: #c72026;
 }
 
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 .banner img {
-    width: 100%;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
