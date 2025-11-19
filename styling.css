@@ -61,48 +61,4 @@ body {
     width: 100%;
     height: auto; 
 
-.menu-section {
-    padding: 40px;
-    text-align: center;
-}
-
-.menu-title {
-    font-size: 32px;
-    margin-bottom: 40px;
-    font-family: Georgia, serif;
-    font-weight: bold;
-}
-
-.menu-grid {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.menu-item {
-    width: 260px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #eee;
-}
-
-.menu-item img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.menu-item h3 {
-    color: #c72026;
-    font-family: Georgia, serif;
-    margin: 15px 0;
-}
-
-.menu-item p {
-    font-size: 14px;
-    line-height: 1.6;
-}
 
