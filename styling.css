@@ -12,19 +12,11 @@
   text-align: right;
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
   margin-left: 15px;
 }
 
-.image-container{
-  max-width: 1000px; 
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.image-container img{
-  width: 100%; 
+.full-width-image {
+  width: 100%;
   height: auto;
-}
+  display: block;
