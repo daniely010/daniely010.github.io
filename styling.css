@@ -60,7 +60,13 @@ body {
     display: block;
     width: 100%;
     height: auto; 
-
+    
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* hides any overflow horizontally */
+}
+    
 .h1 {
     font-size: 40px;
     font-weight: bold;
