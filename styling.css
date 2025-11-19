@@ -61,51 +61,10 @@ body {
     width: 100%;
     height: auto; 
 
-    /* Menu Section */
-#menu {
-    padding: 40px;
-}
-
-/* Menu title */
-#menu h2 {
-    text-align: center;
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #c72026;
+    margin: 0;
     font-family: Georgia, serif;
-    font-size: 32px;
-    margin-bottom: 30px;
-}
-
-/* Table styling */
-.menu-table {
-    width: 80%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    font-size: 16px;
-}
-
-/* Header row */
-.menu-table th {
-    background: #c72026;
-    color: white;
-    padding: 12px;
-    border: 1px solid #ddd;
-    font-weight: bold;
-}
-
-/* Normal cells */
-.menu-table td {
-    padding: 12px;
-    border: 1px solid #ddd;
-}
-
-/* Category cells (left column) */
-.menu-category {
-    font-weight: bold;
-    background: #f7f7f7;
-}
-
-/* Hover effect */
-.menu-table tr:hover {
-    background: #f1f1f1;
-}
-
 
