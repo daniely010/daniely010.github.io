@@ -15,3 +15,10 @@
 .navbar-nav .nav-item{
   margin-left: 15px;
 }
+
+.custom-container{
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;    
+  padding-right: 15px; 
