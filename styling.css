@@ -56,10 +56,3 @@ html, body {
   margin: 0;
   overflow-x: hidden;
 }
-
-body {
-  background-image: url("https://lh3.ggpht.com/p/AF1QipPnvW3flE8BHRDYVC6rWJBhAfu0nWKc3VhBxEhy=s1024");
-  background-size: cover;          /* Make the background cover whole area */
-  background-position: center;     /* Center the image */
-  background-repeat: no-repeat;  
-
