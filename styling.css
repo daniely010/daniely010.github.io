@@ -16,11 +16,16 @@
   margin-left: 15px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-image: url("https://lh3.ggpht.com/p/AF1QipPnvW3flE8BHRDYVC6rWJBhAfu0nWKc3VhBxEhy=s1024");
-  background-size: cover;  
-  background-repeat: no-repeat; 
-  background-position: center; 
-  height: 100%;
-  margin: 0;    
+  background-size: cover;       
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;               
+  width: 100vw;  
 }
