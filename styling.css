@@ -1,31 +1,57 @@
-.navbar-brand img {
-  margin-left: 30px; 
-  margin-right: 15px; 
-  height: 92px;
-  width: auto;
-  object-fit: cover;
-  object-position: center;
-}
-
-.navbar-nav {
-  padding-right: 30px;
-  text-align: right;
-}
-
-.navbar-nav .nav-item {
-  margin-left: 15px;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
-  background-image: url("https://lh3.ggpht.com/p/AF1QipPnvW3flE8BHRDYVC6rWJBhAfu0nWKc3VhBxEhy=s1024");
-  background-size: cover;       
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;               
-  width: 100vw;  
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+
+.navbar {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #c72026;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.logo span {
+    color: black;
+    font-size: 36px;
+}
+
+.tagline {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.nav-right a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-right a:hover {
+    color: #c72026;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
