@@ -50,23 +50,20 @@ body {
     color: #c72026;
 }
 
-.banner {
+html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    overflow-x: hidden; 
+    box-sizing: border-box;
 }
 
 .banner img {
     display: block;
     width: 100%;
     height: auto; 
-    
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    max-width: 100%;
 }
-    
+
 .h1 {
     font-size: 40px;
     font-weight: bold;
