@@ -102,7 +102,7 @@ h2, h5, p {
     width: 100%; 
 }
 
-.container mt-3 img {
+.container mt-3 img-fluid {
     width: 150px; 
     height: auto; 
     display: block;
@@ -117,7 +117,7 @@ h2, h5, p {
     width: 100%; 
 }
 
-.container mt-4 img {
+.container mt-4 img-fluid {
     width: 150px; 
     height: auto; 
     display: block;
