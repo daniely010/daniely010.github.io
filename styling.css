@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 40px;
+    padding: 25px;
     border-bottom: 1px solid #eee;
 }
 
@@ -58,7 +58,7 @@ body {
 
 .banner img {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto; 
     
 html, body {
