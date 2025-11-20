@@ -70,6 +70,7 @@ html, body {
     color: black;
     margin: 0;
     font-family: Georgia, serif;
+}
 
 .category-title {
     font-family: Georgia, serif;
@@ -100,6 +101,7 @@ h2, h5, p {
     max-width: 960px; 
     width: 100%; 
 }
+
 .table img {
     width: 150px; 
     height: auto; 
