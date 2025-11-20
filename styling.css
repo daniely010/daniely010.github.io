@@ -117,12 +117,13 @@ h2, h5, p {
     width: 100%; 
 }
 
-.container mt-4 img.img-fluid {
-    width: 150px; 
-    height: auto; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.menu-image {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .category-label {
