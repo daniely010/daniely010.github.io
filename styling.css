@@ -58,13 +58,13 @@ body {
 
 .banner img {
     display: block;
-    width: 92%;
+    width: 100%;
     height: auto; 
     
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* hides any overflow horizontally */
+    overflow-x: hidden;
 }
     
 .h1 {
