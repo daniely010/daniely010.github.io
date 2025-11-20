@@ -92,3 +92,19 @@ h2, h5, p {
     color: #c72026;
     margin: 0;
     font-family: Georgia, serif;
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px; 
+    width: 100%; 
+}
+.table img {
+    width: 150px; 
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
