@@ -117,7 +117,7 @@ h2, h5, p {
     width: 100%; 
 }
 
-.menu-image {
+.menu.image {
   max-width: 150px;
   width: 100%;
   height: auto;
