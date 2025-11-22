@@ -14,6 +14,9 @@ body {
     align-items: center;
     padding: 25px;
     border-bottom: 1px solid #444;
+    position: sticky; /*makes the navbar stick*/
+    top: 0;           /*sticks to the top of page*/
+    z-index: 999;     /*keeps it above everything else*/
 }
 
 .logo {
