@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: black;   /*black background*/
-    color: white;              /*white text*/
+    background-color: black; /*black background*/
+    color: white; /*white text*/
 }
 
 /*navbar*/
 .navbar {
     width: 100%;
-    background: black;          /*make navbar black*/
+    background: black; /*make navbar black*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,13 +19,13 @@ body {
 .logo {
     font-size: 40px;
     font-weight: bold;
-    color: #c72026;   /*red*/
+    color: #c72026; /*red*/
     margin: 0;
     font-family: Georgia, serif;
 }
 
 .logo span {
-    color: white;    /*white inside the logo*/
+    color: white; /*white inside the logo*/
     font-size: 36px;
 }
 
@@ -36,13 +36,13 @@ body {
 .nav-right a {
     margin-right: 35px;
     text-decoration: none;
-    color: white;    /*white nav links*/
+    color: white; /*white nav links*/
     font-size: 14px;
     font-weight: 500;
 }
 
 .nav-right a:hover {
-    color: #c72026;  /*red on hover*/
+    color: #c72026; /*red on hover*/
 }
 
 /*headers and titles*/
@@ -50,7 +50,7 @@ body {
 .sides-title {
     font-size: 40px;
     font-weight: bold;
-    color: white;    /*white titles*/
+    color: white; /*white titles*/
     margin: 20px 0;
     font-family: Georgia, serif;
 }
@@ -65,7 +65,7 @@ body {
 
 /*tables*/
 .table {
-    color: white;        /*table text white*/
+    color: white; /*table text white*/
     background-color: black;
 }
 
