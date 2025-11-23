@@ -70,6 +70,7 @@ html, body {
     color: #c72026;
     margin: 0;
     font-family: Georgia, serif;
+    text-align: center;
 }
 
 .category-title {
@@ -93,6 +94,7 @@ h2, h5, p {
     color: #c72026;
     margin: 0;
     font-family: Georgia, serif;
+    text-align: center;
 }
 
 .container.mt-3 {
