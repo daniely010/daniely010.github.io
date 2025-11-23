@@ -184,6 +184,55 @@ h2, h5, p {
   border-radius: 10px;
 }
 
+/* HOURS PAGE STYLING */
+
+body {
+    background-color: white;
+}
+
+.hours-wrapper {
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+}
+
+.hours-title {
+    font-size: 50px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #c72026;
+}
+
+.hours-line {
+    width: 120px;
+    height: 3px;
+    background-color: #c72026;
+    margin: 15px auto 40px auto;
+}
+
+.hours-wrapper p {
+    font-size: 22px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.closed-text {
+    color: #c72026;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #c72026;
+    text-decoration: none;
+}
+
 
 
 
