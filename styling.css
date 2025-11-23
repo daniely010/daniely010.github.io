@@ -120,14 +120,27 @@ h2, h5, p {
     width: 100%; 
 }
 
+/* General menu images */
 .menu.image {
-  width: 150px;         
-  height: 150px;       
-  object-fit: cover;    
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   display: block;
-  margin-left: 0;      
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* Specific sizing for poutine and side orders images */
+.menu-section .menu.image[src*="Shawarma-Poutine-blog-3.jpg"],
+.menu-section .menu.image[src*="your_shawarma_img_onion_rings_side500x400.webp"] {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .menu-section table thead th img {
     width: 150px;
@@ -161,6 +174,7 @@ h2, h5, p {
     display: block;
     margin: 0 auto;    /* Centers the image */
 }
+
 
 
 
