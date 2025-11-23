@@ -65,12 +65,11 @@ html, body {
     max-width: 100%;
 }
 
-.menu-title, 
-.sides-title {
+.menu-title {
     font-size: 40px;
     font-weight: bold;
     color: #c72026;
-    margin: 0 0 10px 0;
+    margin: 0;
     font-family: Georgia, serif;
     text-align: center;
 }
@@ -88,16 +87,22 @@ h2, h5, p {
 
 .container {
     max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+}
+    
+.sides-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #c72026;
+    margin: 0;
+    font-family: Georgia, serif;
+    text-align: center;
 }
 
-.container.mt-3, .container.mt-4 {
-    max-width: 960px;
-    width: 100%; 
+.container.mt-3 {
     margin-left: auto;
     margin-right: auto;
+    max-width: 960px; 
+    width: 100%; 
 }
 
 .container.mt-3 img.img-fluid {
@@ -108,19 +113,22 @@ h2, h5, p {
     margin-right: auto;
 }
 
+.container.mt-4 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px; 
+    width: 100%; 
+}
+
 .menu.image {
   width: 150px;         
   height: 150px;       
   object-fit: cover;    
   display: block;
-  margin: 0 auto 20px auto; /* center horizontally with margin bottom */
-  border: none;  
+  margin-left: 0;      
+  margin-right: 0;
 }
 
-/* Makes sure the images align well with table text and titles */
-table.table thead th img.menu.image {
-    vertical-align: middle; /* aligns images with header text */
-}
 
 .category-label {
     font-size: 24px;
